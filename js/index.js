@@ -44,7 +44,7 @@ draw = () => {
   rects.map(r => r.render());
 }
 
-mouseClicked  = ()     => {windowResized();}
+//mouseClicked  = ()     => {windowResized();}
 windowResized = ()     => {resizeCanvas(windowWidth, windowHeight); init();}
 let v2        = (x, y) => {return createVector(x, y)}
 let rand      = (x)    => {return random(x)}
